@@ -49,6 +49,15 @@ These are just some of the most commonly used LaTeX commands and environments. F
 `&                % Separates columns`\
 `\\               % Starts a new row`
 
+## Images
+
+`\begin{figure}[h]              % Begins a figure environment and h refers "here" but use "htbp" to fix alginment issues`\
+`\centering                % Centers the image`\
+`\includegraphics{image}   % Includes the image`\
+`\caption{Caption}         % Adds a caption`\
+`\label{fig:label}         % Adds a label for cross-referencing`\
+`\end{figure}`
+
 ## Mathematical Equations
 
 `$equation$             % Inline equation`\
